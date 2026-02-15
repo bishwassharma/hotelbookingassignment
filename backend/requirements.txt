@@ -1,0 +1,28 @@
+# Flask Backend for Hotel Booking System
+# Requirements file
+
+# Core Flask
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# Database
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.23
+
+# Session Management
+Flask-Session==0.5.0
+
+# Password Hashing (included in Werkzeug, but explicit for clarity)
+# werkzeug.security functions: generate_password_hash, check_password_hash
+
+# Production Server
+gunicorn==21.2.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# CORS (if needed for frontend integration)
+Flask-CORS==4.0.0
+
+# JSON handling (built-in, but listed for reference)
+# No additional package needed
